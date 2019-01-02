@@ -1,0 +1,12 @@
+{
+    "usingComponents": {
+      "i-icon": "/static/iview/icon/index",
+      "i-sticky": "/static/iview/sticky/index",
+      "i-sticky-item": "/static/iview/sticky-item/index",
+      "i-button": "/static/iview/button/index",
+      "i-badge": "/static/iview/badge/index",
+      "i-row": "/static/iview/row/index",
+      "i-col": "/static/iview/col/index",
+      "i-checkbox": "/static/iview/checkbox/index"
+    }
+  }

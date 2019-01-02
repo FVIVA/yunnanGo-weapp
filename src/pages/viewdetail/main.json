@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "i-icon": "/static/iview/icon/index",
+    "i-rate": "/static/iview/rate/index",
+    "i-collapse": "/static/iview/collapse/index",
+    "i-collapse-item": "/static/iview/collapse-item/index",
+    "i-button": "/static/iview/button/index",
+    "map-route": "plugin://mapPlugin/mapRoute",
+    "i-notice-bar": "/static/iview/notice-bar/index"
+  }
+}

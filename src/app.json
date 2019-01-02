@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/food/main",
+    "pages/index/main",
+    "pages/shopping/main",
+    "pages/view/main",
+    "pages/viewdetail/main",
+    "pages/goodDetail/main",
+    "pages/car/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {  
+    "color": "#a9b7b7",  
+    "selectedColor": "#1296db",  
+    "borderStyle":"white",  
+    "list": [{  
+      "selectedIconPath": "/static/image/shouye-2.png",  
+      "iconPath": "/static/image/shouye.png",  
+      "pagePath": "pages/index/main",  
+      "text": "首页"  
+    }, {  
+      "selectedIconPath": "/static/image/yanjing-2.png",  
+      "iconPath": "/static/image/yanjing.png",  
+      "pagePath": "pages/view/main",  
+      "text": "景点"  
+    }, {  
+      "selectedIconPath": "/static/image/canyin-2.png",  
+      "iconPath": "/static/image/canyin.png",  
+      "pagePath": "pages/food/main",  
+      "text": "美食"  
+    }, {  
+      "selectedIconPath": "/static/image/gouwu-2.png",  
+      "iconPath": "/static/image/gouwu.png",  
+      "pagePath": "pages/shopping/main",  
+      "text": "购物"  
+    }]  
+  },
+  "plugins": {
+    "mapPlugin": {
+      "version": "1.0.6",
+      "provider": "wx5bc2ac602a747594"
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+}
